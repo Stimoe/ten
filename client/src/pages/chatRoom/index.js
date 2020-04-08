@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import "./style.css";
 import { Redirect } from 'react-router-dom';
-import ChatRoom from "../../components/chatRoom/index";
+import ChatComponent from "../../components/chatRoom/index";
 class ChatRoom extends Component {
 
     constructor(props) {
@@ -37,12 +37,8 @@ class ChatRoom extends Component {
             <div>
           
               <div className="face-up-cards">
-              <ChatRoom
-// readPlayed={this.handlePlayedCards}
-// newDeck2={this.state.finalNewCards}
-// readPlayed={this.handlePlayedCards}
+              <ChatComponent
 
-// updateDeck={this.newDeck}
 
 />
               </div>
