@@ -24,16 +24,16 @@ class Game extends Component {
 
 
 
-  // componentDidMount() {
+  componentDidMount() {
 
-  //   let tempUser = this.props.location.state.username
-  //   let tempCurrentUsers = this.state.currentusers
-  //   tempCurrentUsers.push(tempUser)
+    let tempUser = this.props.location.state.username
+    let tempCurrentUsers = this.state.currentusers
+    tempCurrentUsers.push(tempUser)
 
-  //   this.setState({
-  //     currentUsers: tempCurrentUsers,
-  //   })
-  // }
+    this.setState({
+      currentUsers: tempCurrentUsers,
+    })
+  }
 
 
 

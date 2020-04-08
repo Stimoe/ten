@@ -25,18 +25,18 @@ class ChatRoomNew extends Component {
 
 
 
-    // componentDidMount() {
+    componentDidMount() {
 
-    //     let tempUser = this.props.location.state.username
-    // let tempCurrentUsers = this.state.currentUsers
-    // tempCurrentUsers.push(tempUser)
-    //     this.setState({
-    //       currentUsers: tempCurrentUsers,
-    //       username: tempUser
-    //     }, () =>{
-    //         // this.getUsers()
-    //     })
-    //   }
+        let tempUser = this.props.location.state.username
+    let tempCurrentUsers = this.state.currentUsers
+    tempCurrentUsers.push(tempUser)
+        this.setState({
+          currentUsers: tempCurrentUsers,
+          username: tempUser
+        }, () =>{
+            // this.getUsers()
+        })
+      }
 
       // getUsers = () => {
       //   axios.get('/api/user/activeUsers', {

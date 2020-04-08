@@ -1,0 +1,53 @@
+*{
+    /* color: black; */
+    font-family: 'Press Start 2P', cursive !important;
+    font-size: 2.5mm;
+}
+/* #player-card{
+    perspective: 100px;
+} */
+.card {
+    background-color: #9e959c;
+    width: 115px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-body {
+    padding: 0%;
+}
+
+.card-title {
+    
+   padding-top: 10%;
+   font-size: 3mm;
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+ 
+
+
+}
+.card-corner {
+    font-size: 2.5mm;
+    /* display: flex;
+    justify-content: center; 
+    text-align: center; */
+    width: 25%;
+    padding: 0px;
+    height: 50px;
+    margin-bottom: 0px;
+}
+
+.card-image {
+    width: 75%;
+}
+
+/* .flip-card-back {
+    margin: auto;
+    display: flex;
+    justify-content: center; 
+    height: 150%;
+    
+} */

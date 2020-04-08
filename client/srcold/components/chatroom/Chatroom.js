@@ -1,10 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React, { Component } from "react";
+// import ReactDOM from './node_modules/react-dom';
+import ReactDOM from '../../node_modules/react-dom';
 import './style.css';
 
 import Message from '../Messages/Messages';
 
-class Chatroom extends React.Component {
+class Chatroom extends Component {
     constructor(props) {
         super(props);
 
@@ -46,7 +47,6 @@ class Chatroom extends React.Component {
         const { chats } = this.state;
 
         return (
-            
             <div className="chatroom">
                 <h3>Chilltime</h3>
                 <ul className="chats" ref="chats">

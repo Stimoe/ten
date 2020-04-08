@@ -1,0 +1,525 @@
+[
+    {
+        "id": 1,
+        "corner": "A",
+        "cornerImage": "https://i.imgur.com/hAbQJSI.jpg",
+        "name": "Ace of hearts",
+        "value": 1,
+        "order": 1,
+        "image": "TBD"
+         
+
+    },
+    {
+        "id": 2,
+        "corner": "2",
+        "cornerImage": "https://i.imgur.com/hAbQJSI.jpg",
+        "name": "Two of hearts",
+        "value": 2,
+        "order": 2,
+        "image": "TBD"
+
+    },
+    {
+        "id": 3,
+        "corner": "3",
+        "cornerImage": "https://i.imgur.com/hAbQJSI.jpg",
+        "name": "Three of hearts",
+        "value": 3,
+        "order": 3,
+        "image": "TBD"
+
+    },
+    {
+        "id": 4,
+        "corner": "4",
+        "cornerImage": "https://i.imgur.com/hAbQJSI.jpg",
+        "name": "Four of hearts",
+        "value": 4,
+        "order": 4,
+        "image": "TBD"
+
+    },
+    {
+        "id": 5,
+        "corner": "5",
+        "cornerImage": "https://i.imgur.com/hAbQJSI.jpg",
+        "name": "Six of hearts",
+        "value": 5,
+        "order": 5,
+        "image": "TBD"
+
+    },
+    {
+        "id": 6,
+        "corner": "6",
+        "cornerImage": "https://i.imgur.com/hAbQJSI.jpg",
+        "name": "Six of hearts",
+        "value": 6,
+        "order": 6,
+        "image": "TBD"
+
+    },
+    {
+        "id": 7,
+        "corner": "7",
+        "cornerImage": "https://i.imgur.com/hAbQJSI.jpg",
+        "name": "Seven of hearts",
+        "value": 7,
+        "order": 7,
+        "image": "TBD"
+
+    },
+    {
+        "id": 8,
+        "corner": "8",
+        "cornerImage": "https://i.imgur.com/hAbQJSI.jpg",
+        "name": "Eight of hearts",
+        "value": 8,
+        "order": 8,
+        "image": "TBD"
+
+    },
+    {
+        "id": 9,
+        "corner": "9",
+        "cornerImage": "https://i.imgur.com/hAbQJSI.jpg",
+        "name": "Nine of hearts",
+        "value": 9,
+        "order": 9,
+        "image": "TBD"
+
+    },
+    {
+        "id": 10,
+        "corner": "10",
+        "cornerImage": "https://i.imgur.com/hAbQJSI.jpg",
+        "name": "Ten of hearts",
+        "value": 15,
+        "order": 10,
+        "image": "TBD"
+
+    },
+    {
+        "id": 11,
+        "corner": "J",
+        "cornerImage": "https://i.imgur.com/hAbQJSI.jpg",
+        "name": "Jack of hearts",
+        "value": 10,
+        "order": 11,
+        "image": "TBD"
+
+    },
+    {
+        "id": 12,
+        "corner": "Q",
+        "cornerImage": "https://i.imgur.com/hAbQJSI.jpg",
+        "name": "Queen of hearts",
+        "value": 10,
+        "order": 12,
+        "image": "TBD"
+
+    },
+    {
+        "id": 13,
+        "corner": "K",
+        "cornerImage": "https://i.imgur.com/hAbQJSI.jpg",
+        "name": "King of hearts",
+        "value": 10,
+        "order": 13,
+        "image": "TBD"
+
+    },
+    {
+        "id": 14,
+        "corner": "A",
+        "cornerImage": "https://i.imgur.com/Mu6Kw9i.jpg",
+        "name": "Ace of diamonds",
+        "value": 1,
+        "order": 1,
+        "image": "TBD"
+
+    },
+    {
+        "id": 15,
+        "corner": "2",
+        "cornerImage": "https://i.imgur.com/Mu6Kw9i.jpg",
+        "name": "Two of diamonds",
+        "value": 2,
+        "order": 2,
+        "image": "TBD"
+
+    },
+    {
+        "id": 16,
+        "corner": "3",
+        "cornerImage": "https://i.imgur.com/Mu6Kw9i.jpg",
+        "name": "Three of diamonds",
+        "value": 3,
+        "order": 3,
+        "image": "TBD"
+
+    },
+    {
+        "id": 17,
+        "corner": "4",
+        "cornerImage": "https://i.imgur.com/Mu6Kw9i.jpg",
+        "name": "Four of diamonds",
+        "value": 4,
+        "order": 4,
+        "image": "TBD"
+
+    },
+    {
+        "id": 18,
+        "corner": "5",
+        "cornerImage": "https://i.imgur.com/Mu6Kw9i.jpg",
+        "name": "Six of diamonds",
+        "value": 5,
+        "order": 5,
+        "image": "TBD"
+
+    },
+    {
+        "id": 19,
+        "corner": "6",
+        "cornerImage": "https://i.imgur.com/Mu6Kw9i.jpg",
+        "name": "Six of diamonds",
+        "value": 6,
+        "order": 6,
+        "image": "TBD"
+
+    },
+    {
+        "id": 20,
+        "corner": "7",
+        "cornerImage": "https://i.imgur.com/Mu6Kw9i.jpg",
+        "name": "Seven of diamonds",
+        "value": 7,
+        "order": 7,
+        "image": "TBD"
+
+    },
+    {
+        "id": 21,
+        "corner": "8",
+        "cornerImage": "https://i.imgur.com/Mu6Kw9i.jpg",
+        "name": "Eight of diamonds",
+        "value": 8,
+        "order": 8,
+        "image": "TBD"
+
+    },
+    {
+        "id": 22,
+        "corner": "9",
+        "cornerImage": "https://i.imgur.com/Mu6Kw9i.jpg",
+        "name": "Nine of diamonds",
+        "value": 9,
+        "order": 9,
+        "image": "TBD"
+
+    },
+    {
+        "id": 23,
+        "corner": "10",
+        "cornerImage": "https://i.imgur.com/Mu6Kw9i.jpg",
+        "name": "Ten of diamonds",
+        "value": 15,
+        "order": 10,
+        "image": "TBD"
+
+    },
+    {
+        "id": 24,
+        "corner": "J",
+        "cornerImage": "https://i.imgur.com/Mu6Kw9i.jpg",
+        "name": "Jack of diamonds",
+        "value": 10,
+        "order": 11,
+        "image": "TBD"
+
+    },
+    {
+        "id": 25,
+        "corner": "Q",
+        "cornerImage": "https://i.imgur.com/Mu6Kw9i.jpg",
+        "name": "Queen of diamonds",
+        "value": 10,
+        "order": 12,
+        "image": "TBD"
+
+    },
+    {
+        "id": 26,
+        "corner": "K",
+        "cornerImage": "https://i.imgur.com/Mu6Kw9i.jpg",
+        "name": "King of diamonds",
+        "value": 10,
+        "order": 13,
+        "image": "TBD"
+
+    },
+    {
+        "id": 27,
+        "corner": "A",
+        "cornerImage": "https://i.imgur.com/IWpfJPH.jpg",
+        "name": "Ace of spades",
+        "value": 1,
+        "order": 1,
+        "image": "TBD"
+
+    },
+    {
+        "id": 28,
+        "corner": "2",
+        "cornerImage": "https://i.imgur.com/IWpfJPH.jpg",
+        "name": "Two of spades",
+        "value": 2,
+        "order": 2,
+        "image": "TBD"
+
+    },
+    {
+        "id": 29,
+        "corner": "3",
+        "cornerImage": "https://i.imgur.com/IWpfJPH.jpg",
+        "name": "Three of spades",
+        "value": 3,
+        "order": 3,
+        "image": "TBD"
+
+    },
+    {
+        "id": 30,
+        "corner": "4",
+        "cornerImage": "https://i.imgur.com/IWpfJPH.jpg",
+        "name": "Four of spades",
+        "value": 4,
+        "order": 4,
+        "image": "TBD"
+
+    },
+    {
+        "id": 31,
+        "corner": "5",
+        "cornerImage": "https://i.imgur.com/IWpfJPH.jpg",
+        "name": "Six of spades",
+        "value": 5,
+        "order": 5,
+        "image": "TBD"
+
+    },
+    {
+        "id": 32,
+        "corner": "6",
+        "cornerImage": "https://i.imgur.com/IWpfJPH.jpg",
+        "name": "Six of spades",
+        "value": 6,
+        "order": 6,
+        "image": "TBD"
+
+    },
+    {
+        "id": 33,
+        "corner": "7",
+        "cornerImage": "https://i.imgur.com/IWpfJPH.jpg",
+        "name": "Seven of spades",
+        "value": 7,
+        "order": 7,
+        "image": "TBD"
+
+    },
+    {
+        "id": 34,
+        "corner": "8",
+        "cornerImage": "https://i.imgur.com/IWpfJPH.jpg",
+        "name": "Eight of spades",
+        "value": 8,
+        "order": 8,
+        "image": "TBD"
+
+    },
+    {
+        "id": 35,
+        "corner": "9",
+        "cornerImage": "https://i.imgur.com/IWpfJPH.jpg",
+        "name": "Nine of spades",
+        "value": 9,
+        "order": 9,
+        "image": "TBD"
+
+    },
+    {
+        "id": 36,
+        "corner": "10",
+        "cornerImage": "https://i.imgur.com/IWpfJPH.jpg",
+        "name": "Ten of spades",
+        "value": 15,
+        "order": 10,
+        "image": "TBD"
+
+    },
+    {
+        "id": 37,
+        "corner": "J",
+        "cornerImage": "https://i.imgur.com/IWpfJPH.jpg",
+        "name": "Jack of spades",
+        "value": 10,
+        "order": 11,
+        "image": "TBD"
+
+    },
+    {
+        "id": 38,
+        "corner": "Q",
+        "cornerImage": "https://i.imgur.com/IWpfJPH.jpg",
+        "name": "Queen of spades",
+        "value": 10,
+        "order": 12,
+        "image": "TBD"
+
+    },
+    {
+        "id": 39,
+        "corner": "K",
+        "cornerImage": "https://i.imgur.com/IWpfJPH.jpg",
+        "name": "King of spades",
+        "value": 10,
+        "order": 13,
+        "image": "TBD"
+
+    },
+    {
+        "id": 40,
+        "corner": "A",
+        "cornerImage": "https://i.imgur.com/IWpfJPH.jpg",
+        "name": "Ace of clubs",
+        "value": 1,
+        "order": 1,
+        "image": "TBD"
+
+    },
+    {
+        "id": 41,
+        "corner": "2",
+        "cornerImage": "https://i.imgur.com/IWpfJPH.jpg",
+        "name": "Two of clubs",
+        "value": 2,
+        "order": 2,
+        "image": "TBD"
+
+    },
+    {
+        "id": 42,
+        "corner": "3",
+        "cornerImage": "https://i.imgur.com/IWpfJPH.jpg",
+        "name": "Three of clubs",
+        "value": 3,
+        "order": 3,
+        "image": "TBD"
+
+    },
+    {
+        "id": 43,
+        "corner": "4",
+        "cornerImage": "https://i.imgur.com/OjdlTlE.jpg",
+        "name": "Four of clubs",
+        "value": 4,
+        "order": 4,
+        "image": "TBD"
+
+    },
+    {
+        "id": 44,
+        "corner": "5",
+        "cornerImage": "https://i.imgur.com/OjdlTlE.jpg",
+        "name": "Five of clubs",
+        "value": 5,
+        "order": 5,
+        "image": "TBD"
+
+    },
+    {
+        "id": 45,
+        "corner": "6",
+        "cornerImage": "https://i.imgur.com/OjdlTlE.jpg",
+        "name": "Six of clubs",
+        "value": 6,
+        "order": 6,
+        "image": "TBD"
+
+    },
+    {
+        "id": 46,
+        "corner": "7",
+        "cornerImage": "https://i.imgur.com/OjdlTlE.jpg",
+        "name": "Seven of clubs",
+        "value": 7,
+        "order": 7,
+        "image": "TBD"
+
+    },
+    {
+        "id": 47,
+        "corner": "8",
+        "cornerImage": "https://i.imgur.com/OjdlTlE.jpg",
+        "name": "Eight of clubs",
+        "value": 8,
+        "order": 8,
+        "image": "TBD"
+
+    },
+    {
+        "id": 48,
+        "corner": "9",
+        "cornerImage": "https://i.imgur.com/OjdlTlE.jpg",
+        "name": "Nine of clubs",
+        "value": 9,
+        "order": 9,
+        "image": "TBD"
+
+    },
+    {
+        "id": 49,
+        "corner": "10",
+        "cornerImage": "https://i.imgur.com/OjdlTlE.jpg",
+        "name": "Ten of clubs",
+        "value": 15,
+        "order": 10,
+        "image": "TBD"
+
+    },
+    {
+        "id": 50,
+        "corner": "J",
+        "cornerImage": "https://i.imgur.com/OjdlTlE.jpg",
+        "name": "Jack of clubs",
+        "value": 10,
+        "order": 11,
+        "image": "TBD"
+
+    },
+    {
+        "id": 51,
+        "corner": "Q",
+        "cornerImage": "https://i.imgur.com/OjdlTlE.jpg",
+        "name": "Queen of clubs",
+        "value": 10,
+        "order": 12,
+        "image": "TBD"
+
+    },
+    {
+        "id": 52,
+        "corner": "K",
+        "cornerImage": "https://i.imgur.com/OjdlTlE.jpg",
+        "name": "King of clubs",
+        "value": 10,
+        "order": 13,
+        "image": "TBD"
+
+    }
+ 
+
+]

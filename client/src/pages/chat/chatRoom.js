@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import axios from "axios";
+// import axios from "axios";
 import "./style.css";
 import { Redirect } from 'react-router-dom';
 // import Chatroom from "../../components/chatroom/Chatroom";
-import Chatroom from '../../components/chatroom/Chatroom'
+import Chatroom from '../../components/Chatroom/Chatroom'
 
 
 class ChatRoomNew extends Component {
