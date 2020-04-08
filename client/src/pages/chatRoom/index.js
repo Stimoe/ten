@@ -3,13 +3,14 @@ import { Link } from "react-router-dom";
 import axios from "axios";
 import "./style.css";
 import { Redirect } from 'react-router-dom';
-import ChatComponent from "../../components/chatRoom/index";
-import NewChat from "../../components/chatRoom2/index";
+import ChatComponent from "../../components/Chatroom/Chatroom";
+
 class ChatRoom extends Component {
 
     constructor(props) {
         super(props);
         this.state = {
+          username: '',
           currentUsers: [],
           currentUserHand: [],
           currentPlayedPile: [],
@@ -28,27 +29,28 @@ class ChatRoom extends Component {
     let tempCurrentUsers = this.state.currentUsers
     tempCurrentUsers.push(tempUser)
         this.setState({
-          currentUser: tempCurrentUsers,
+          currentUsers: tempCurrentUsers,
+          username: tempUser
         }, () =>{
-            this.getUsers()
+            // this.getUsers()
         })
       }
 
-      getUsers = () => {
-        axios.get('/api/user/activeUsers', {
-            // params: {
-            //   username: user
-            // }
-          })
-          .then(res => {
-         console.log(res)
+      // getUsers = () => {
+      //   axios.get('/api/user/activeUsers', {
+      //       // params: {
+      //       //   username: user
+      //       // }
+      //     })
+      //     .then(res => {
+      //    console.log(res)
 
-          })
+      //     })
 
    
     
  
-      }
+      // }
 
 
     render() {
@@ -56,7 +58,7 @@ class ChatRoom extends Component {
             <div>
           
               <div className="chat">
-              <NewChat
+              <ChatComponent
 
 
 />
@@ -72,9 +74,3 @@ class ChatRoom extends Component {
 
 export default ChatRoom;
 
-  /* <InputGroup size="lg">
-  <InputGroup.Prepend>
-    <InputGroup.Text id="inputGroup-sizing-lg">Large</InputGroup.Text>
-  </InputGroup.Prepend>
-  <FormControl aria-label="Large" aria-describedby="inputGroup-sizing-sm" />
-</InputGroup> */
