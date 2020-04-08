@@ -15,9 +15,9 @@ class Login extends Component {
       loggedInUser:"",
       redirect: false,
       // url:"https://stimoe.github.io/expressNeonRainServer",
-      // url:"http://localhost:8080",
+      url:"http://localhost:5000",
       // url:"https://neon-rain-express-server.herokuapp.com",
-      url: "https://neon-rain-game-new.herokuapp.com",
+      // url: "https://neon-rain-game-new.herokuapp.com",
       errors: {}
     };
   }
