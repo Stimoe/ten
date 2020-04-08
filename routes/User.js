@@ -69,8 +69,10 @@ module.exports = (app) => {
 
     app.get('/api/user/activeUsers', async (req, res) => {
         User.find((err, data) => {
+let userNameData = data.data.username
+
           if (err) return res.json({ success: false, error: err });
-          return res.json({ success: true, data: data });
+          return res.json({ success: true, data: userNameData });
         });
       });
 
