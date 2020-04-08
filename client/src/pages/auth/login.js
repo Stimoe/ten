@@ -73,7 +73,7 @@ class Login extends Component {
 
  if (redirect) {
    return <Redirect to={{
-    pathname: '/game',
+    pathname: '/chat',
     state: { username: this.state.username }
 }}
 />

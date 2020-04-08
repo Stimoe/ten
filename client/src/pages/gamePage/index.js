@@ -10,6 +10,7 @@ class Game extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      currentUsers: [],
       currentUserHand: [],
       currentPlayedPile: [],
       discard: [],
@@ -23,13 +24,15 @@ class Game extends Component {
 
 
 
-  componentDidUpdate(prevprops, prevState) {
- 
-    
+  componentDidMount() {
 
+    let tempUser = this.props.location.state.username
+    let tempCurrentUsers = this.state.currentusers
+    tempCurrentUsers.push(tempUser)
 
-
-
+    this.setState({
+      currentUsers: tempCurrentUsers,
+    })
   }
 
 

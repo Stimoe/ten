@@ -73,7 +73,7 @@ class Register extends Component {
   axios.post('/api/user/login', { username: this.state.username, password: this.state.password }).then(res => {
     console.log("line 26 ", res.data, res.status)
     if(res.status===200){
-      return  <Redirect  to="/game" />
+      return  <Redirect  to="/chat" />
     }
   }).catch(err => {
     console.log(err.response);
@@ -89,7 +89,7 @@ class Register extends Component {
 
     if (redirect) {
       return <Redirect to={{
-       pathname: '/game',
+       pathname: '/chat',
        state: { username: this.state.username }
    }}
    />
