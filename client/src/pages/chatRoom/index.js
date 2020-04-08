@@ -3,9 +3,33 @@ import { Link } from "react-router-dom";
 
 import "./style.css";
 import { Redirect } from 'react-router-dom';
-
+import ChatRoom from "../../components/chatRoom/index";
 class ChatRoom extends Component {
 
+    constructor(props) {
+        super(props);
+        this.state = {
+          currentUsers: [],
+          currentUserHand: [],
+          currentPlayedPile: [],
+          discard: [],
+          currentFourCardsFaceDown: [],
+          currentFourCardsFaceUp: [],
+    
+        };
+      }
+
+
+
+    componentDidMount() {
+
+        let tempUser = this.props.location.state.username
+    let tempCurrentUsers = this.state.currentUsers
+    tempCurrentUsers.push(tempUser)
+        this.setState({
+          currentUser: tempCurrentUsers,
+        })
+      }
 
 
     render() {
@@ -13,13 +37,13 @@ class ChatRoom extends Component {
             <div>
           
               <div className="face-up-cards">
-              <DeckBrain
+              <ChatRoom
 // readPlayed={this.handlePlayedCards}
 // newDeck2={this.state.finalNewCards}
 // readPlayed={this.handlePlayedCards}
 
 // updateDeck={this.newDeck}
-drawn={this.drawn}
+
 />
               </div>
             </div>

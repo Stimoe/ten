@@ -5,6 +5,8 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
 function ChatRoom(props) {
+
+
   return (
     <div class="container-fluid">
         <div class="row">
