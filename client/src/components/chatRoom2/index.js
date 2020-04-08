@@ -202,10 +202,10 @@ class NewChat extends Component {
             !this.state.isPlaying &&
             <div className="game">
               <div className="board">
-                <Board
+                {/* <Board
                     squares={0}
                     onClick={index => null}
-                  />  
+                  />   */}
                   
                 <div className="button-container">
                   <button 
