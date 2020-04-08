@@ -1,10 +1,10 @@
-import React from './node_modules/react';
+import React, { Component } from "react";
 import ReactDOM from './node_modules/react-dom';
 import './style.css';
 
 import Message from '../Messages/Messages';
 
-class Chatroom extends React.Component {
+class Chatroom extends Component {
     constructor(props) {
         super(props);
 
