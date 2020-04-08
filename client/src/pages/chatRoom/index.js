@@ -28,7 +28,25 @@ class ChatRoom extends Component {
     tempCurrentUsers.push(tempUser)
         this.setState({
           currentUser: tempCurrentUsers,
+        }, () =>{
+            this.getUsers()
         })
+      }
+
+      getUsers = () => {
+        axios.get('/api/user/activeUsers', {
+            // params: {
+            //   username: user
+            // }
+          })
+          .then(res => {
+         console.log(res)
+
+          })
+
+   
+    
+ 
       }
 
 
@@ -36,7 +54,7 @@ class ChatRoom extends Component {
         return (
             <div>
           
-              <div className="face-up-cards">
+              <div className="chat">
               <ChatComponent
 
 
