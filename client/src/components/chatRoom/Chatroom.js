@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import ReactDOM from './node_modules/react-dom';
+// import ReactDOM from './node_modules/react-dom';
+import ReactDOM from '../../node_modules/react-dom';
 import './style.css';
 
 import Message from '../Messages/Messages';

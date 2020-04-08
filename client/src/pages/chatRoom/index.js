@@ -6,6 +6,7 @@ import { Redirect } from 'react-router-dom';
 // import Chatroom from "../../components/chatroom/Chatroom";
 import Chatroom from '../../components/chatroom/Chatroom'
 
+
 class ChatRoomNew extends Component {
 
     constructor(props) {
@@ -58,12 +59,9 @@ class ChatRoomNew extends Component {
         return (
             <div>
           
-              <div className="chat">
-              <Chatroom
-
-
-/>
-              </div>
+          <div className="App">
+        <Chatroom />
+    </div>
             </div>
     
           );
