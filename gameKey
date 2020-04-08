@@ -1,0 +1,8 @@
+Game keys one = pub-c-78526633-fdc3-4d95-ad9d-7e5dbc5d2453 = publish key
+Game keys two = pub-c-78526633-fdc3-4d95-ad9d-7e5dbc5d2453 = subscribe key
+
+main chat keys = 
+
+ChatEngine 
+    Publish-key = pub-c-b2757592-d9f4-427c-bba2-40b1253d8cbe
+    Subscribe-key = pub-c-b2757592-d9f4-427c-bba2-40b1253d8cbe

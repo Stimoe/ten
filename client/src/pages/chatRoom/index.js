@@ -4,6 +4,7 @@ import axios from "axios";
 import "./style.css";
 import { Redirect } from 'react-router-dom';
 import ChatComponent from "../../components/chatRoom/index";
+import NewChat from "../../components/chatRoom2/index";
 class ChatRoom extends Component {
 
     constructor(props) {
@@ -55,7 +56,7 @@ class ChatRoom extends Component {
             <div>
           
               <div className="chat">
-              <ChatComponent
+              <NewChat
 
 
 />
