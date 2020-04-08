@@ -60,19 +60,19 @@ module.exports = (app) => {
         }
     });
 
-    app.get('/api/user/activeUsers', async (req, res) => {
-        // let currentUser = req.query.username
-        await User.findAll(function (err, user) {
-            res.send(user)
-        })
-    })
+    // app.get('/api/user/activeUsers', async (req, res) => {
+    //     // let currentUser = req.query.username
+    //     await User.findAll(function (err, user) {
+    //         res.send(user)
+    //     })
+    // })
 
-    // router.get('/getData', (req, res) => {
-    //     Data.find((err, data) => {
-    //       if (err) return res.json({ success: false, error: err });
-    //       return res.json({ success: true, data: data });
-    //     });
-    //   });
+    app.get('/api/user/activeUsers', async (req, res) => {
+        Data.find((err, data) => {
+          if (err) return res.json({ success: false, error: err });
+          return res.json({ success: true, data: data });
+        });
+      });
 
 
 
