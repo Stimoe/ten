@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-
+import axios from "axios";
 import "./style.css";
 import { Redirect } from 'react-router-dom';
 import ChatComponent from "../../components/chatRoom/index";
