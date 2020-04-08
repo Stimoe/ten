@@ -1,0 +1,87 @@
+
+  .playArea {
+    display: flex;
+    top: 10%;
+    margin: 0;
+    bottom: 0% !important;
+  }
+  .middle-cards .card{
+color: red !important;
+
+  }
+  .middle-cards {
+  margin-right: -75px;
+  }
+
+  .areaPlay {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    bottom: 0% !important;
+  }
+
+  .handArea {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  .potentialPlayArea {
+    display: flex;
+    position: fixed;
+    height: 200px;
+    width:100%;
+    justify-content: center;
+
+  }
+
+  .potentialPlay {
+
+    margin: auto;
+
+  }
+.faceUp {
+  display: flex;
+  position: fixed;
+  bottom: 1%;
+left: 35%;
+z-index: 3;
+
+}
+.faceDown {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  z-index: 2; 
+bottom: 1%;
+left: 35%;
+
+
+}
+.submit-Button {
+ position: fixed;
+  display: flex;
+top: 35%;
+  left: 80%;
+}
+  .playCard {
+      width: 115px;
+      height: 150px;
+  }
+
+  .in-play {
+    margin-right: -75px;
+    padding-top: 20px !important;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    padding-right: 2px;
+  }
+  
+  .stuffs{
+    transform: scale(0.7);
+    padding: 100%;
+  }
+
+  
+  .modal-div {
+    float: right;
+  }
