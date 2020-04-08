@@ -218,10 +218,10 @@ class Game extends React.Component {
     return (
       <div className="game">
         <div className="board">
-          <Board
+          {/* <Board
               squares={this.state.squares}
               onClick={index => this.onMakeMove(index)}
-            />  
+            />   */}
             <p className="status-info">{status}</p>        
         </div>
         
