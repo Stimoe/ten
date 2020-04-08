@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 import axios from "axios";
 import "./style.css";
 import { Redirect } from 'react-router-dom';
-import ChatComponent from "../../components/Chatroom/Chatroom";
+import Chatroom from "../../components/Chatroom/Chatroom";
 
-class ChatRoom extends Component {
+class ChatRoomNew extends Component {
 
     constructor(props) {
         super(props);
@@ -58,7 +58,7 @@ class ChatRoom extends Component {
             <div>
           
               <div className="chat">
-              <ChatComponent
+              <Chatroom
 
 
 />
@@ -72,5 +72,5 @@ class ChatRoom extends Component {
 
 
 
-export default ChatRoom;
+export default ChatRoomNew;
 
